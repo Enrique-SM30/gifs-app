@@ -9,5 +9,5 @@ import { Gif } from 'src/app/gifs/interfaces/gif.interface';
   imports: [ListItemComponent]
 })
 export class ListComponent {
-  gifs = input.required<Gif[]>();
+  gifs = input.required<Gif[][]>();
 }
